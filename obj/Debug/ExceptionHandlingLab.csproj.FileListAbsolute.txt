@@ -1,0 +1,8 @@
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\bin\Debug\ExceptionHandlingLab.exe.config
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\bin\Debug\ExceptionHandlingLab.exe
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\bin\Debug\ExceptionHandlingLab.pdb
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\obj\Debug\ExceptionHandlingLab.csproj.AssemblyReference.cache
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\obj\Debug\ExceptionHandlingLab.csproj.SuggestedBindingRedirects.cache
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\obj\Debug\ExceptionHandlingLab.csproj.CoreCompileInputs.cache
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\obj\Debug\ExceptionHandlingLab.exe
+C:\Users\izalu\OneDrive - Southern Alberta Institute of Technology\Winter2023\CPRG211-OOP2\Labs\ExceptionHandlingLab\obj\Debug\ExceptionHandlingLab.pdb
