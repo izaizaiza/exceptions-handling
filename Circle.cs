@@ -11,6 +11,16 @@ namespace ExceptionHandlingLab
     {
         public double Radius { get; set; }
 
+        //public double SetRadius(double inputRadius)
+        //{
+        //    if(inputRadius >0)
+        //    {
+        //        Radius = inputRadius;
+        //    }
+        //    return Radius;
+
+        //}
+
         public double Area
         {
             get
@@ -33,7 +43,8 @@ namespace ExceptionHandlingLab
             // throw an exception
            if(radius <= 0)
             {
-                throw new InvalidRadiusException("Invalid number,",radius);
+                //throw new InvalidRadiusException("Invalid number,",radius);
+                throw new InvalidRadiusException(radius);
             }
             else if (radius>0)
             {
@@ -41,7 +52,7 @@ namespace ExceptionHandlingLab
             }
             else
             {
-                throw new Exception();
+                throw new InvalidRadiusException();
             }
 
             

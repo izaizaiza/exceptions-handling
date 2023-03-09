@@ -13,7 +13,7 @@ namespace ExceptionHandlingLab
         {
 
             // try 4 types of input: negative, 0, positive, not a number
-            for (int j=0;j<4;j++)
+            for (int j = 0; j < 4; j++)
             {
                 try
                 {
@@ -24,18 +24,17 @@ namespace ExceptionHandlingLab
                 }
                 catch (InvalidRadiusException e)
                 {
-                    //Console.WriteLine("Radius is invalid");
-                    //Console.WriteLine(e.Message);
+                    
 
                 }
                 catch (Exception e)
                 {
-                    Console.WriteLine("Something else went wrong");
+                    Console.WriteLine(e.Message);
                 }
-            }
-            
 
-            Console.ReadLine();
+
+                Console.ReadLine();
+            }
         }
     }
 }

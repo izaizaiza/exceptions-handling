@@ -10,22 +10,29 @@ namespace ExceptionHandlingLab
     {
         public InvalidRadiusException() 
         {
+            //Console.WriteLine("Invalid Radius.");
         }
 
-        public InvalidRadiusException(string message) : base(message)
-        {
+        //public InvalidRadiusException(string message) : base(message)
+        //{
 
-        }
+        //}
 
         //public InvalidRadiusException(string message, Exception inner) : base(message, inner)
         //{
 
         //}
 
-        public InvalidRadiusException(string message, double radius) : this(message)
+        //public InvalidRadiusException(string message, double radius) : this(message)
+        //{
+        //  Console.WriteLine(message + radius.ToString() + ". Enter a positive number.");
+        //} //[1]
+
+        public InvalidRadiusException(double radius)
         {
-            Console.WriteLine(message + radius.ToString() + ". Enter a positive number.");
+            Console.WriteLine("Radius is invalid, " + radius.ToString() + ". Enter a positive number.");
         } //[1]
+
 
 
 
