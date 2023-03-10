@@ -11,15 +11,6 @@ namespace ExceptionHandlingLab
     {
         public double Radius { get; set; }
 
-        //public double SetRadius(double inputRadius)
-        //{
-        //    if(inputRadius >0)
-        //    {
-        //        Radius = inputRadius;
-        //    }
-        //    return Radius;
-
-        //}
 
         public double Area
         {
@@ -41,21 +32,31 @@ namespace ExceptionHandlingLab
             //radius can't be negative, nor 0
             // want to stop radius to be an invalid value
             // throw an exception
-           if(radius <= 0)
+           if(radius < 0)
             {
                 //throw new InvalidRadiusException("Invalid number,",radius);
                 throw new InvalidRadiusException(radius);
             }
-            else if (radius>0)
+           else if(radius == 0)
+            {
+                throw new InvalidRadiusException("Radius 0 would return a 0 area of a circle. Enter a value > 0.");
+            }
+           else if (radius>0)
             {
                 Radius = radius;
             }
-            else
+           else
             {
                 throw new InvalidRadiusException();
             }
 
             
+        }
+
+
+        public override string ToString()
+        {
+            return $"A circle's area with a radius of {Convert.ToString(Radius)} is: {Convert.ToString(Area)}.";
         }
     }
 }

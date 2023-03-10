@@ -13,6 +13,7 @@ namespace ExceptionHandlingLab
         {
 
             // try 4 types of input: negative, 0, positive, not a number
+            
             for (int j = 0; j < 4; j++)
             {
                 try
@@ -20,11 +21,10 @@ namespace ExceptionHandlingLab
                     Console.WriteLine("Enter radius of a circle:");
                     double radius = double.Parse(Console.ReadLine());
                     Circle circle = new Circle(radius);
-                    Console.WriteLine(circle.Area);
+                    Console.WriteLine(circle.ToString());
                 }
-                catch (InvalidRadiusException e)
+                catch (InvalidRadiusException)
                 {
-                    
 
                 }
                 catch (Exception e)
@@ -32,9 +32,8 @@ namespace ExceptionHandlingLab
                     Console.WriteLine(e.Message);
                 }
 
-
-                Console.ReadLine();
             }
-        }
+            Console.ReadLine();
+        }//end of main
     }
 }
